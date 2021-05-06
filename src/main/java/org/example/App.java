@@ -1,3 +1,5 @@
+package org.example;
+
 public class App {
     Client client;
     ConsoleEventLogger consoleEventLogger;
