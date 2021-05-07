@@ -1,6 +1,6 @@
-package org.example;
+package loggers;
 
-public class ConsoleEventLogger {
+public class ConsoleEventLogger implements IEventLogger {
     public void logEvent(String msg) {
         System.out.println(msg);
     }
